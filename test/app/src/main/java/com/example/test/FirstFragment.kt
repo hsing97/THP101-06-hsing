@@ -25,8 +25,8 @@ class FirstFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        with(binding) {
-            // arguments即為前頁傳來的bundle，如果不為null即可取值
+        with(binding){
+        // arguments即為前頁傳來的bundle，如果不為null即可取值
 
 
             btLogin.setOnClickListener {

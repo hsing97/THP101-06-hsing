@@ -22,10 +22,21 @@
         <action
             android:id="@+id/action_pageLoginFragment_to_testFragment"
             app:destination="@id/testFragment" />
+        <action
+            android:id="@+id/action_pageLoginFragment_to_testFragment2"
+            app:destination="@id/testFragment" />
+        <action
+            android:id="@+id/action_pageLoginFragment_to_finalFragment"
+            app:destination="@id/finalFragment" />
     </fragment>
     <fragment
         android:id="@+id/testFragment"
         android:name="com.example.test.TestFragment"
         android:label="fragment_test2"
         tools:layout="@layout/fragment_test2" />
+    <fragment
+        android:id="@+id/finalFragment"
+        android:name="com.example.test.FinalFragment"
+        android:label="fragment_final"
+        tools:layout="@layout/fragment_final" />
 </navigation>

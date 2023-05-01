@@ -52,7 +52,7 @@ class pageLoginFragment : Fragment() {
                 bundle.putSerializable("user", user)
                 // 將Bundle帶至下一頁
                 Navigation.findNavController(it).navigate(
-                    R.id.action_pageLoginFragment_to_testFragment,
+                    R.id.action_pageLoginFragment_to_finalFragment,
                     bundle
                 )
             }

@@ -7,11 +7,12 @@
     <data>
         <variable
             name="viewModel"
-            type="com.example.test.FirstFragment" />
+            type="com.example.test.FirstViewModel" />
     </data>
 <androidx.constraintlayout.widget.ConstraintLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:id="@+id/frameLayout2"
     >
 
     <Button
